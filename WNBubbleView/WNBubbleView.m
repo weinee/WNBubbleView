@@ -65,7 +65,7 @@
 		for (int i=0; i<titles.count; i++) {
 			UIButton* btn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
 			[btn setTitle:titles[i] forState:UIControlStateNormal];
-			[btn setBackgroundImage:[UIImage imageNamed:@"delete_btn"] forState:UIControlStateHighlighted];
+//			[btn setBackgroundImage:[UIImage imageNamed:@"delete_btn"] forState:UIControlStateHighlighted];
 			btn.tag = i+1;
 			btn.tintColor = self.titleColor;
 			btn.backgroundColor = self.backgroundColor;
