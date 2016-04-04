@@ -15,6 +15,11 @@
 		782EA1021CAACFED00CBF8A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782EA1001CAACFED00CBF8A4 /* LaunchScreen.storyboard */; };
 		782EA10D1CAACFED00CBF8A4 /* WNBubbleViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 782EA10C1CAACFED00CBF8A4 /* WNBubbleViewTests.m */; };
 		782EA1181CAACFED00CBF8A4 /* WNBubbleViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 782EA1171CAACFED00CBF8A4 /* WNBubbleViewUITests.m */; };
+		782EA1281CAAD03E00CBF8A4 /* WNBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 782EA1271CAAD03E00CBF8A4 /* WNBubbleView.m */; };
+		78E273181CAE5EBF007D8D53 /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E273151CAE5EBF007D8D53 /* UITableView+SDAutoTableViewCellHeight.m */; };
+		78E273191CAE5EBF007D8D53 /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E273171CAE5EBF007D8D53 /* UIView+SDAutoLayout.m */; };
+		78E2731B1CAF7F02007D8D53 /* delete_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 78E2731A1CAF7F02007D8D53 /* delete_btn.png */; };
+		78E2731F1CB0EFC8007D8D53 /* WNRectOper.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E2731E1CB0EFC8007D8D53 /* WNRectOper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,15 @@
 		782EA1131CAACFED00CBF8A4 /* WNBubbleViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WNBubbleViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		782EA1171CAACFED00CBF8A4 /* WNBubbleViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WNBubbleViewUITests.m; sourceTree = "<group>"; };
 		782EA1191CAACFED00CBF8A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		782EA1261CAAD03E00CBF8A4 /* WNBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNBubbleView.h; sourceTree = "<group>"; };
+		782EA1271CAAD03E00CBF8A4 /* WNBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNBubbleView.m; sourceTree = "<group>"; };
+		78E273141CAE5EBF007D8D53 /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		78E273151CAE5EBF007D8D53 /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		78E273161CAE5EBF007D8D53 /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		78E273171CAE5EBF007D8D53 /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		78E2731A1CAF7F02007D8D53 /* delete_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete_btn.png; sourceTree = "<group>"; };
+		78E2731D1CB0EFC8007D8D53 /* WNRectOper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNRectOper.h; sourceTree = "<group>"; };
+		78E2731E1CB0EFC8007D8D53 /* WNRectOper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNRectOper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +115,9 @@
 		782EA0F11CAACFED00CBF8A4 /* WNBubbleView */ = {
 			isa = PBXGroup;
 			children = (
+				78E273201CB22BC4007D8D53 /* SDAutolayout */,
+				78E2731C1CB0EF84007D8D53 /* WNRectOper */,
+				782EA1251CAAD00D00CBF8A4 /* WNBubbleView */,
 				782EA0F51CAACFED00CBF8A4 /* AppDelegate.h */,
 				782EA0F61CAACFED00CBF8A4 /* AppDelegate.m */,
 				782EA0F81CAACFED00CBF8A4 /* ViewController.h */,
@@ -138,6 +155,36 @@
 				782EA1191CAACFED00CBF8A4 /* Info.plist */,
 			);
 			path = WNBubbleViewUITests;
+			sourceTree = "<group>";
+		};
+		782EA1251CAAD00D00CBF8A4 /* WNBubbleView */ = {
+			isa = PBXGroup;
+			children = (
+				782EA1261CAAD03E00CBF8A4 /* WNBubbleView.h */,
+				782EA1271CAAD03E00CBF8A4 /* WNBubbleView.m */,
+				78E2731A1CAF7F02007D8D53 /* delete_btn.png */,
+			);
+			name = WNBubbleView;
+			sourceTree = "<group>";
+		};
+		78E2731C1CB0EF84007D8D53 /* WNRectOper */ = {
+			isa = PBXGroup;
+			children = (
+				78E2731D1CB0EFC8007D8D53 /* WNRectOper.h */,
+				78E2731E1CB0EFC8007D8D53 /* WNRectOper.m */,
+			);
+			name = WNRectOper;
+			sourceTree = "<group>";
+		};
+		78E273201CB22BC4007D8D53 /* SDAutolayout */ = {
+			isa = PBXGroup;
+			children = (
+				78E273141CAE5EBF007D8D53 /* UITableView+SDAutoTableViewCellHeight.h */,
+				78E273151CAE5EBF007D8D53 /* UITableView+SDAutoTableViewCellHeight.m */,
+				78E273161CAE5EBF007D8D53 /* UIView+SDAutoLayout.h */,
+				78E273171CAE5EBF007D8D53 /* UIView+SDAutoLayout.m */,
+			);
+			name = SDAutolayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +293,7 @@
 				782EA1021CAACFED00CBF8A4 /* LaunchScreen.storyboard in Resources */,
 				782EA0FF1CAACFED00CBF8A4 /* Assets.xcassets in Resources */,
 				782EA0FD1CAACFED00CBF8A4 /* Main.storyboard in Resources */,
+				78E2731B1CAF7F02007D8D53 /* delete_btn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +319,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				782EA0FA1CAACFED00CBF8A4 /* ViewController.m in Sources */,
+				78E2731F1CB0EFC8007D8D53 /* WNRectOper.m in Sources */,
+				782EA1281CAAD03E00CBF8A4 /* WNBubbleView.m in Sources */,
+				78E273191CAE5EBF007D8D53 /* UIView+SDAutoLayout.m in Sources */,
 				782EA0F71CAACFED00CBF8A4 /* AppDelegate.m in Sources */,
 				782EA0F41CAACFED00CBF8A4 /* main.m in Sources */,
+				78E273181CAE5EBF007D8D53 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +466,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WNBubbleView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pers.weinee.WNBubbleView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +478,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WNBubbleView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pers.weinee.WNBubbleView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +552,7 @@
 				782EA11E1CAACFED00CBF8A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		782EA11F1CAACFED00CBF8A4 /* Build configuration list for PBXNativeTarget "WNBubbleViewTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +561,7 @@
 				782EA1211CAACFED00CBF8A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		782EA1221CAACFED00CBF8A4 /* Build configuration list for PBXNativeTarget "WNBubbleViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +570,7 @@
 				782EA1241CAACFED00CBF8A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[WNBubbleViewTests testExample]:WNBubbleViewTests.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[WNRectOper getFitRectBySup:CGRectMake(100, 100, 100, 200) subRect:CGRectMake(150, 50, 50, 500)withMargin:0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController test:]:ViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController tapTrigger:]:ViewController.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
