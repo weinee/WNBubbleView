@@ -16,20 +16,20 @@
 		return rel;
 	}
 	if (CGRectIntersectsRect(referRect, secondRect)) {
-		rel += WNRectRelIntersection;
+		rel |= WNRectRelIntersection;
 	}
 	//判断位置情况，   根据范围进行判断
 	if (CGRectGetMinY(referRect) > CGRectGetMinY(secondRect)) {
-		rel += WNRectRelTop;
+		rel |= WNRectRelTop;
 	}
 	if (CGRectGetMinX(referRect) > CGRectGetMinX(secondRect)) {
-		rel += WNRectRelLeft;
+		rel |= WNRectRelLeft;
 	}
 	if (CGRectGetMaxY(referRect) < CGRectGetMaxY(secondRect)) {
-		rel += WNRectRelBottom;
+		rel |= WNRectRelBottom;
 	}
 	if (CGRectGetMaxX(referRect) < CGRectGetMaxX(secondRect)) {
-		rel += WNRectRelRight;
+		rel |= WNRectRelRight;
 	}
 	return rel;
 }
